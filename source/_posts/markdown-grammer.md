@@ -3,7 +3,7 @@ title: markdown语法总结
 tags:
   - markdown
 categories:
-  - 开发语言
+  - 前端
 comments: true
 date: 2019-10-29 11:27:06
 ---

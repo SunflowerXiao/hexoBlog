@@ -2,6 +2,9 @@
 title: ubuntu上传图片到服务器
 date: 2019-10-29 09:04:17
 tags:
+  - scp
+categories: 
+  - linux 
 ---
 
 
@@ -11,7 +14,6 @@ tags:
 ```bash
 scp -r localfile.txt username@192.168.0.1:/home/username/ 
 ```
-
 - scp scp(secure copy)是linux系统使用的用于复制文件和目录的命令
 
 ```bash

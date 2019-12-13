@@ -40,7 +40,7 @@ external_link:
   exclude:
 filename_case: 0
 render_drafts: false
-post_asset_folder: false  #开启后会在hexo new page/post/draft的时候一同创建一个静态资源文件夹
+post_asset_folder: true  #开启后会在hexo new page/post/draft的时候一同创建一个静态资源文件夹
 relative_link: false
 future: true
 highlight:
@@ -92,3 +92,10 @@ deploy:
   type: git
   repo: ssh://root@45.76.223.152/home/hexoBlog
   branch: master
+
+# 文章搜索功能添加
+#search:
+#  path: search.xml
+#  field: post
+#  content: true
+#  format: html
